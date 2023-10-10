@@ -1,0 +1,22 @@
+@import '../abstract/variaveis';
+
+#produtos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    text-align: end;
+    h3 {
+        font-size: $tamanho-do-texto /1.5;
+        margin-bottom: 1rem;
+        border-bottom: 4px solid $cor-secundaria;
+    }
+    h4 {
+        font-size: $tamanho-do-texto / 2;
+        margin: 1rem 0 1.5rem 0;
+    }
+    p {
+        font-size: $tamanho-do-texto / 2.3;
+        line-height: 1.5rem
+    }
+}
